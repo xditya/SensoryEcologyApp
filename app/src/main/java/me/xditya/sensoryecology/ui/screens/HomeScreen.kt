@@ -24,7 +24,7 @@ import me.xditya.sensoryecology.ui.components.MyTopAppBar
 @Composable
 fun HomeScreen(navController: NavHostController) {
     Scaffold(
-        topBar = { MyTopAppBar(navController, "SensoryEcology") },
+        topBar = { MyTopAppBar(navController, "Sensory Ecology") },
         bottomBar = { MyBottomAppBar(navController = navController) }
     )
     {
